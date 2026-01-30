@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { addCustomer } from "../store/customerSlice";
 import { useNavigate } from "react-router-dom";
-
+//amit
 const AddCustomer = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
